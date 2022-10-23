@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-10-26T16:00:00.0Z",
+  "genesis_time": "2022-10-26T16:00:00Z",
   "chain_id": "canine-1",
   "initial_height": "1",
   "consensus_params": {
@@ -14,9 +14,8 @@
       "max_bytes": "1048576"
     },
     "validator": {
-      "pub_key_types": [
-        "ed25519"
-      ]
+    "pub_key_types": ["ed25519"]
+      
     },
     "version": {}
   },
@@ -37,6 +36,13 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
+                  },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "jkl1y89nm42gk7thhpp4ar0tdz4fva6mnq8zy3f9xy",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
         }
       ]
     },
@@ -49,6 +55,16 @@
         "default_send_enabled": true
       },
       "balances": [
+          {
+          "address": "jkl1y89nm42gk7thhpp4ar0tdz4fva6mnq8zy3f9xy",
+          "coins": [
+            {
+              "denom": "ujkl",
+              "amount": "2000000000"
+            }
+          ]
+        },
+        
         {
           "address": "jkl16pen46ezev66s5wqxesj8lexk7ny58vy4qwyzv",
           "coins": [
@@ -62,7 +78,7 @@
       "supply": [
         {
           "denom": "ujkl",
-          "amount": "2000000000"
+          "amount": "4000000000"
         }
       ],
       "denom_metadata": []
