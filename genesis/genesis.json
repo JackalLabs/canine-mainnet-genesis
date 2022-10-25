@@ -14,9 +14,8 @@
       "max_bytes": "1048576"
     },
     "validator": {
-      "pub_key_types": [
-        "ed25519"
-      ]
+    "pub_key_types": ["ed25519"]
+      
     },
     "version": {}
   },
@@ -40,7 +39,7 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "jkl10jaax8qsnd3cxg6mf6ya7cmn37y9cc5z87p32t",
+          "address": "jkl1t60pxgkxnj2u49ztnsjkp0qhyxz78weuk406hk",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -56,6 +55,61 @@
         "default_send_enabled": true
       },
       "balances": [
+          {
+          "address": "jkl1y89nm42gk7thhpp4ar0tdz4fva6mnq8zy3f9xy",
+          "coins": [
+            {
+              "denom": "ujkl",
+              "amount": "2000000000"
+            }
+          ]
+        },
+        
+        {
+          "address": "jkl1t60pxgkxnj2u49ztnsjkp0qhyxz78weuk406hk",
+          "coins": [
+            {
+              "denom": "ujkl",
+              "amount": "2000000000"
+            }
+          ]
+        },
+        {
+          "address": "jkl1x6zkmeekrzrthdly9slqqzs0u60jke2wq69d2g",
+          "coins": [
+            {
+              "denom": "ujkl",
+              "amount": "2000000000"
+            }
+          ]
+        },
+        {
+          "address": "jkl1ccxq5la3jqmlmyqt7fqmy45avlcmn95u4eprga",
+          "coins": [
+            {
+              "denom": "ujkl",
+              "amount": "2000000000"
+            }
+          ]
+        },
+        {
+          "address": "jkl19ehae6anrl2wax3dvnptw69fd6n9n77klaxpsy",
+          "coins": [
+            {
+              "denom": "ujkl",
+              "amount": "2000000000"
+            }
+          ]
+        },
+        {
+          "address": "jkl19f0w9svr905fhefusyx4z8sf83j6et0ge4wqzn",
+          "coins": [
+            {
+              "denom": "ujkl",
+              "amount": "2000000000"
+            }
+          ]
+        },
         {
           "address": "jkl10jaax8qsnd3cxg6mf6ya7cmn37y9cc5z87p32t",
           "coins": [
@@ -67,6 +121,15 @@
         },
         {
           "address": "jkl16pen46ezev66s5wqxesj8lexk7ny58vy4qwyzv",
+          "coins": [
+            {
+              "denom": "ujkl",
+              "amount": "2000000000"
+            }
+          ]
+        },
+        {
+          "address": "jkl1a3gtlpsjrrkflz9nz4dtpexw8e30vk5r4zn7sw",
           "coins": [
             {
               "denom": "ujkl",
