@@ -212,6 +212,13 @@
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "jkl1xu2k6cgc2kvx3dmuw5th4h44jrpfrd57xff5wn",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
         }
       ]
     },
@@ -275,6 +282,15 @@
             {
               "denom": "ujkl",
               "amount": "1923076923"
+            }
+          ]
+        },
+        {
+          "address": "jkl1xu2k6cgc2kvx3dmuw5th4h44jrpfrd57xff5wn",
+          "coins": [
+            {
+              "denom": "ujkl",
+              "amount": "2000000000"
             }
           ]
         },
@@ -462,7 +478,7 @@
       "supply": [
         {
           "denom": "ujkl",
-          "amount": "49999999998"
+          "amount": "51999999998"
         }
       ],
       "denom_metadata": []
