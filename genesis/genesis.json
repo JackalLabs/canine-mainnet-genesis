@@ -40,7 +40,7 @@
         },
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "jkl1eeq3h6uy8zkzl92vhsflnzh0c9wr3hpuuf4esj",
+          "address": "jkl1t60pxgkxnj2u49ztnsjkp0qhyxz78weuk406hk",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -57,7 +57,7 @@
       },
       "balances": [
         {
-          "address": "jkl1eeq3h6uy8zkzl92vhsflnzh0c9wr3hpuuf4esj",
+          "address": "jkl1t60pxgkxnj2u49ztnsjkp0qhyxz78weuk406hk",
           "coins": [
             {
               "denom": "ujkl",
@@ -67,6 +67,15 @@
         },
         {
           "address": "jkl16pen46ezev66s5wqxesj8lexk7ny58vy4qwyzv",
+          "coins": [
+            {
+              "denom": "ujkl",
+              "amount": "2000000000"
+            }
+          ]
+        },
+        {
+          "address": "jkl1a3gtlpsjrrkflz9nz4dtpexw8e30vk5r4zn7sw",
           "coins": [
             {
               "denom": "ujkl",
