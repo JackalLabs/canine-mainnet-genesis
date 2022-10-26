@@ -33,7 +33,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "jkl1x6zkmeekrzrthdly9slqqzs0u60jke2wq69d2g",
+          "address": "jkl1ramqkapjkg0f58vypc43szaqp5juq0lysztc0z",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -50,7 +50,7 @@
       },
       "balances": [
         {
-          "address": "jkl1x6zkmeekrzrthdly9slqqzs0u60jke2wq69d2g",
+          "address": "jkl1ramqkapjkg0f58vypc43szaqp5juq0lysztc0z",
           "coins": [
             {
               "denom": "ujkl",
