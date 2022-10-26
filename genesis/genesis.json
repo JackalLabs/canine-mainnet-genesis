@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-10-26T16:00:00Z",
-  "chain_id": "canine-1",
+  "genesis_time": "2022-10-26T22:00:00Z",
+  "chain_id": "jackal-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -33,13 +33,6 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "jkl16pen46ezev66s5wqxesj8lexk7ny58vy4qwyzv",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        },
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
           "address": "jkl1aex0adya5e35ul7wz385ug6tj4yhq7w0nn4zkv",
           "pub_key": null,
           "account_number": "0",
@@ -57,20 +50,11 @@
       },
       "balances": [
         {
-          "address": "jkl16pen46ezev66s5wqxesj8lexk7ny58vy4qwyzv",
-          "coins": [
-            {
-              "denom": "ujkl",
-              "amount": "2000000000"
-            }
-          ]
-        },
-        {
           "address": "jkl1aex0adya5e35ul7wz385ug6tj4yhq7w0nn4zkv",
           "coins": [
             {
               "denom": "ujkl",
-              "amount": "2000000000"
+              "amount": "4000000000"
             }
           ]
         }
@@ -228,11 +212,11 @@
     },
     "slashing": {
       "params": {
-        "signed_blocks_window": "4800",
-        "min_signed_per_window": "0.500000000000000000",
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.05",
         "downtime_jail_duration": "600s",
         "slash_fraction_double_sign": "0.050000000000000000",
-        "slash_fraction_downtime": "0.010000000000000000"
+        "slash_fraction_downtime": "0.0001"
       },
       "signing_infos": [],
       "missed_blocks": []
