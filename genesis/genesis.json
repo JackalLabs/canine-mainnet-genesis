@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2022-10-26T22:00:00Z",
+  "genesis_time": "2022-10-26T22:00:00.0Z",
   "chain_id": "jackal-1",
   "initial_height": "1",
   "consensus_params": {
@@ -30,15 +30,7 @@
         "sig_verify_cost_ed25519": "590",
         "sig_verify_cost_secp256k1": "1000"
       },
-      "accounts": [
-        {
-          "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "jkl135548xynt4lz3g64zet24eq58kln2l5amyaute",
-          "pub_key": null,
-          "account_number": "0",
-          "sequence": "0"
-        }
-      ]
+      "accounts": []
     },
     "authz": {
       "authorization": []
@@ -48,23 +40,8 @@
         "send_enabled": [],
         "default_send_enabled": true
       },
-      "balances": [
-        {
-          "address": "jkl135548xynt4lz3g64zet24eq58kln2l5amyaute",
-          "coins": [
-            {
-              "denom": "ujkl",
-              "amount": "4000000000"
-            }
-          ]
-        }
-      ],
-      "supply": [
-        {
-          "denom": "ujkl",
-          "amount": "4000000000"
-        }
-      ],
+      "balances": [],
+      "supply": [],
       "denom_metadata": []
     },
     "capability": {
