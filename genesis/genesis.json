@@ -1,6 +1,6 @@
 {
-  "genesis_time": "2022-10-26T16:00:00Z",
-  "chain_id": "canine-1",
+  "genesis_time": "2022-10-26T22:00:00Z",
+  "chain_id": "jackal-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
@@ -33,7 +33,7 @@
       "accounts": [
         {
           "@type": "/cosmos.auth.v1beta1.BaseAccount",
-          "address": "jkl16pen46ezev66s5wqxesj8lexk7ny58vy4qwyzv",
+          "address": "jkl1ramqkapjkg0f58vypc43szaqp5juq0lysztc0z",
           "pub_key": null,
           "account_number": "0",
           "sequence": "0"
@@ -57,20 +57,20 @@
       },
       "balances": [
         {
-          "address": "jkl1ej2es5fjztqjcd4pwa0zyvaevtjd2y5w6vmpap",
+          "address": "jkl1ramqkapjkg0f58vypc43szaqp5juq0lysztc0z",
           "coins": [
             {
               "denom": "ujkl",
-              "amount": "2000000000"
+              "amount": "4000000000"
             }
           ]
         },
         {
-          "address": "jkl16pen46ezev66s5wqxesj8lexk7ny58vy4qwyzv",
+          "address": "jkl1ej2es5fjztqjcd4pwa0zyvaevtjd2y5w6vmpap",
           "coins": [
             {
               "denom": "ujkl",
-              "amount": "2000000000"
+              "amount": "4000000000"
             }
           ]
         }
@@ -78,7 +78,7 @@
       "supply": [
         {
           "denom": "ujkl",
-          "amount": "4000000000"
+          "amount": "8000000000"
         }
       ],
       "denom_metadata": []
@@ -228,11 +228,11 @@
     },
     "slashing": {
       "params": {
-        "signed_blocks_window": "4800",
-        "min_signed_per_window": "0.500000000000000000",
+        "signed_blocks_window": "10000",
+        "min_signed_per_window": "0.05",
         "downtime_jail_duration": "600s",
         "slash_fraction_double_sign": "0.050000000000000000",
-        "slash_fraction_downtime": "0.010000000000000000"
+        "slash_fraction_downtime": "0.0001"
       },
       "signing_infos": [],
       "missed_blocks": []
