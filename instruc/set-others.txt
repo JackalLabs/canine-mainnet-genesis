@@ -1,4 +1,4 @@
-wget -O ~/.canine/config/genesis.json https://jackaldao.com/wp-content/uploads/2022/10/genesis-final.txt
+wget -O ~/.canine/config/genesis.json https://cdn.discordapp.com/attachments/1002389406650466405/1034968352591986859/updated_genesis2.json
 
 PEERCOUNT=6
 SEEDS=$(wget https://raw.githubusercontent.com/JackalLabs/canine-mainnet-genesis/master/genesis/seeds.txt -q -O -)
